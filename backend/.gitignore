@@ -1,0 +1,42 @@
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.local
+backend/logs/
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Environment files
+.env.production
+.env.development
